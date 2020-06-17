@@ -1,0 +1,386 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Start Header Navigation*/
+
+.heading-area .navbar .navbar-brand {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: verdana;
+    color: salmon;
+}
+
+.heading-area .navbar .navbar-nav .nav-item .nav-link {
+    padding:20px;
+    letter-spacing: 2px;
+}
+
+.heading-area .navbar .navbar-nav .nav-item.active .nav-link {
+    color: teal;
+}
+
+.heading-area .navbar .navbar-nav .nav-item .nav-link:hover {
+    color: lightskyblue
+}
+
+.heading-area .navbar-toggler {
+    text-align: center;
+    justify-content: center;
+    width: 54px;
+    height: 45px;
+    margin-left: auto;
+    margin-right: 2px;
+}
+
+/* End Header Navigation*/
+
+/* Start Banner Section */
+
+.banner-section {
+    margin-bottom: 40px;
+}
+
+.banner-section .banner-img-content img {
+    padding: 20px 5px;
+    margin: 50px auto;
+    width: 280px;
+    height: 300px;
+}
+
+.banner-section .banner-text {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.banner-section .banner-text-content {
+    text-align: left;
+    display: block;
+    letter-spacing: 2px;
+    width: 85%;    
+    padding: 5px;
+    margin: 2px 60px 20px ;
+}
+
+.banner-section .banner-text-content h4 {
+    background: linear-gradient(75deg, rgb(180, 85, 117), thistle);
+    -webkit-background-clip: text;
+    background-clip:text;
+    -webkit-text-fill-color: transparent;
+    font-family: roboto, sans-serif;
+    font-weight: 300;
+    padding: 5px;
+    margin-top: 20px;;
+}
+
+.banner-section .banner-text-content h1 {
+    
+    font-family: Helvetica, sans-serif;
+    background: linear-gradient(55deg, thistle, limegreen);
+    -webkit-background-clip: text;
+    background-clip:text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    padding: 5px;
+    
+}
+
+.banner-section .banner-text-content h3 {
+    font-family: verdana;
+    font-weight: 300;
+    background: linear-gradient(45deg, coral, thistle);
+    -webkit-background-clip: text;
+    background-clip:text;
+    -webkit-text-fill-color: transparent;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-section .btn1 {
+    background-image: linear-gradient(50deg, rgb(209, 162, 209), dodgerblue);
+    color: lavender;
+    box-shadow: 2px 3px 3px #aaa;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+}
+
+.banner-section .btn1:hover {
+    
+    background: linear-gradient(to bottom right, turquoise, tomato);
+    -webkit-background-clip: text;
+    background-clip:text;
+    -webkit-text-fill-color: transparent;
+    border: 0px;
+    box-shadow: 1px 1px 3px #aaa;
+    
+}
+
+.banner-section .btn2 {
+    
+    /* background-image: linear-gradient(50deg, rgb(209, 162, 209), dodgerblue); */
+    /* border-image: linear-gradient(50deg, rgb(209, 162, 209), dodgerblue) 50 round;   */
+    background: linear-gradient(to bottom right, teal, coral);
+    -webkit-background-clip: text;
+    background-clip:text;
+    -webkit-text-fill-color: transparent;
+    border: 0px;
+    box-shadow: 2px 3px 3px #aaa;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    
+}
+
+.banner-section .btn2:hover {
+    background-image: linear-gradient(50deg, rgb(209, 162, 209), dodgerblue);
+    -webkit-background-clip: border-box;
+    background-clip:border-box;
+    -webkit-text-fill-color: lavender;
+    box-shadow: 1px 1px 3px #aaa;
+}
+/* End Banner Section*/
+
+/* Start Portfolio Section */
+.site-portfolio {
+    width: 100%;
+}
+
+
+.site-portfolio-title {
+    color: salmon;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+.site-portfolio .box {
+    background-color:lime;
+}
+
+.site-portfolio .card {
+    width: 90%;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 15px 15px 12px #aaa;
+    /* background-color:teal; */
+}
+
+
+
+.site-portfolio .card:hover {
+    box-shadow: 5px 5px 9px rgb(202, 140, 140);
+}
+
+
+
+.site-portfolio .card-img-top {
+    width: 150px;
+    height: 150px;
+    margin: 5px auto;
+}
+
+/* End Portfolio Section */
+
+
+/* Start Projects Section */
+
+.site-project {
+    margin: 30px auto;
+}
+
+.site-project h2 {
+    margin-bottom: 40px;
+}
+
+/* End Projects Section */
+
+
+/* Start Pricing Section */
+
+.site-pricing {
+   margin: 50px auto;
+}
+
+.site-pricing .site-pricing-title {
+    margin: 50px;
+}
+
+.site-pricing .card {
+    width: 300px;
+}
+
+.site-pricing .card {
+    background-color: lightgreen;
+    padding: 20px;
+    margin: 20px auto;
+    width: 240px;
+}
+
+.site-pricing .card:hover {
+    position: relative;
+    bottom:40px;
+    height: 95%;
+    /* width: 300px; */
+    box-shadow: 0px 20px 12px -10px lightslategray;
+}
+
+.site-pricing .card h1 {
+    margin: 60px auto;
+}
+
+.site-pricing .card .card-title {
+    color: lightcoral;
+}
+
+/* End Pricing Section */
+
+
+/* Start Footer Section */
+
+ .site-footer {
+    margin: 70px auto 0;
+    padding: 30px;
+    background-color: lavender;
+ }
+
+ .site-footer label {
+     padding: 20px;
+     font-size: 20px;
+ }
+
+ .site-footer input, button {
+     padding: 10px;
+     height: 50px;
+     width: 250px;
+     margin: 10px auto 20px;
+ }
+
+ .site-footer button {
+     border-radius: 5px;
+     border: 0;
+     color: lavender;
+     background-color: dodgerblue;
+     
+ }
+
+ .site-footer button:hover {
+    background-color:teal;
+ }
+
+ .site-footer .contact-detail span {
+     padding: 5px;
+     margin: 10px 0px;
+     display: block;
+ }
+
+ .site-footer .contact-detail {
+     background-color:lightpink;
+     padding: 10px;
+     border-radius: 5px;
+     margin-left: 15px;
+     width: 250px;
+     margin-bottom: 10px;
+ }
+
+ .site-footer .official-part span{
+     text-align: center;
+     font-weight: 500;
+     padding: 10px;
+     margin: 10px 0px;
+     display: block;
+ } 
+
+ .site-footer .official-part {
+    background-color:lightpink;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 15px;
+    width: 250px;
+    margin-bottom: 10px;
+ }
+
+/* End Footer Section */
+
+
+
+/* Media Query */
+
+@media only screen and (min-width: 1000px) {
+    /* Banner section */
+    .banner-section {
+        margin: 15vh 0 5vh;
+    }
+
+    .banner-section .banner-img-content img {
+        padding: 20px 5px;
+        margin: 50px auto;
+        width: 400px;
+        height: 500px;
+    }
+
+    .banner-section .banner-text-content {
+        display: block;
+        letter-spacing: 5px;
+        width: 85%;    
+        padding: 5px;
+        margin: 45px auto 20px;
+        margin-left: 70px;
+    }
+
+    /* Project section */
+
+    .site-project .carousel .carousel-item {
+        height: 500px;
+    }
+
+    .site-project .carousel .carousel-item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        height: 500px;
+    }
+
+    .site-footer #signup-mail {
+        margin-left: 10px;
+    }
+
+    .site-footer label {
+        margin-left: 10px;
+        width: 350px;
+    }
+
+    .site-footer .btn-signup {
+        margin-left: 10px;
+    }
+
+}
+
+
+@media only screen and (min-width: 800px) {
+    .site-footer #signup-mail {
+        width: 250px;
+    }
+
+    .site-footer .btn-signup {
+        width: 160px;
+        margin-left: 13px;
+    }
+
+    .site-footer .contact-detail {
+        margin: 20px auto;  
+    }
+    .site-footer .official-part {
+        margin: 20px auto;  
+    }
+}
+
+
